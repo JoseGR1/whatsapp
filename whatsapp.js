@@ -17,4 +17,8 @@
     });
   });
   
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var logo = document.getElementById("company-logo");
+    logo.classList.add("logo");
+  });
   
